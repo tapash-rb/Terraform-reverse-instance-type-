@@ -12,7 +12,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "my_instance-1" {
-  ami           = "ami-0a0e5d9c7acc336f1"  # Same AMI ID
+  ami           = "ami-0c2af51e265bd5e0e"  # Same AMI ID
   instance_type = "t2.medium"  # Updated instance type
 
   tags = {
